@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        >
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_gravity="left"
+            android:id="@+id/logo"
+            android:src="@drawable/logo"
+            />
+        <ImageView
+            android:id="@+id/Cartart"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_shopping_cart_black_24dp"/>
+        <ImageView
+            android:id="@+id/whats"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right"
+            android:src="@drawable/whatsapp"
+            />
+</android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>
