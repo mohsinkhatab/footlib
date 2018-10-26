@@ -24,11 +24,11 @@ android:fillViewport="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txt"
-        android:text="Featured"
+        android:text="FEATURED"
         android:textSize="15sp"
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
-        android:textColor="#0f178f"/>
+        android:textColor="#212058"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -37,6 +37,7 @@ android:fillViewport="false"
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+
             android:orientation="horizontal">
 
 
@@ -98,11 +99,11 @@ android:fillViewport="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/txt2"
-        android:text="Categories"
+        android:text="CATEGORIES"
         android:textSize="15sp"
         android:layout_marginBottom="10dp"
         android:textStyle="bold"
-        android:textColor="#0f178f"/>
+        android:textColor="#212058"/>
 <ScrollView
     android:layout_width="wrap_content"
     android:layout_height="match_parent">
@@ -114,7 +115,7 @@ android:fillViewport="false"
     android:layout_width="320dp"
     android:layout_height="90dp"
         android:id="@+id/img3"
-       android:text="Category 1"
+       android:text="New Arrivals"
         android:gravity="center"
         android:textColor="#fff"
         android:layout_margin="15dp"
